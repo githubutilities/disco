@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE362A61B78EB8900CB21FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362A51B78EB8900CB21FD /* AppDelegate.m */; };
+		BEE362A91B78EB8900CB21FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362A81B78EB8900CB21FD /* main.m */; };
+		BEE362AC1B78EB8900CB21FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362AB1B78EB8900CB21FD /* ViewController.m */; };
+		BEE362AE1B78EB8900CB21FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE362AD1B78EB8900CB21FD /* Assets.xcassets */; };
+		BEE362B11B78EB8900CB21FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE362AF1B78EB8900CB21FD /* Main.storyboard */; };
+		BEE362BC1B78EB8900CB21FD /* discoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362BB1B78EB8900CB21FD /* discoTests.m */; };
+		BEE362C71B78EB8900CB21FD /* discoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362C61B78EB8900CB21FD /* discoUITests.m */; };
+		BEE362D91B78F55700CB21FD /* DiscoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE362D81B78F55700CB21FD /* DiscoWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE362B81B78EB8900CB21FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE362991B78EB8900CB21FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE362A01B78EB8900CB21FD;
+			remoteInfo = disco;
+		};
+		BEE362C31B78EB8900CB21FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE362991B78EB8900CB21FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE362A01B78EB8900CB21FD;
+			remoteInfo = disco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEE362A11B78EB8900CB21FD /* disco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE362A41B78EB8900CB21FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEE362A51B78EB8900CB21FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEE362A81B78EB8900CB21FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE362AA1B78EB8900CB21FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEE362AB1B78EB8900CB21FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEE362AD1B78EB8900CB21FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE362B01B78EB8900CB21FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE362B21B78EB8900CB21FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE362B71B78EB8900CB21FD /* discoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = discoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE362BB1B78EB8900CB21FD /* discoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = discoTests.m; sourceTree = "<group>"; };
+		BEE362BD1B78EB8900CB21FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE362C21B78EB8900CB21FD /* discoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = discoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE362C61B78EB8900CB21FD /* discoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = discoUITests.m; sourceTree = "<group>"; };
+		BEE362C81B78EB8900CB21FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE362D71B78F55700CB21FD /* DiscoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoWindowController.h; sourceTree = "<group>"; };
+		BEE362D81B78F55700CB21FD /* DiscoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE3629E1B78EB8900CB21FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362B41B78EB8900CB21FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362BF1B78EB8900CB21FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE362981B78EB8900CB21FD = {
+			isa = PBXGroup;
+			children = (
+				BEE362A31B78EB8900CB21FD /* disco */,
+				BEE362BA1B78EB8900CB21FD /* discoTests */,
+				BEE362C51B78EB8900CB21FD /* discoUITests */,
+				BEE362A21B78EB8900CB21FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE362A21B78EB8900CB21FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE362A11B78EB8900CB21FD /* disco.app */,
+				BEE362B71B78EB8900CB21FD /* discoTests.xctest */,
+				BEE362C21B78EB8900CB21FD /* discoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE362A31B78EB8900CB21FD /* disco */ = {
+			isa = PBXGroup;
+			children = (
+				BEE362A41B78EB8900CB21FD /* AppDelegate.h */,
+				BEE362A51B78EB8900CB21FD /* AppDelegate.m */,
+				BEE362AA1B78EB8900CB21FD /* ViewController.h */,
+				BEE362AB1B78EB8900CB21FD /* ViewController.m */,
+				BEE362AD1B78EB8900CB21FD /* Assets.xcassets */,
+				BEE362AF1B78EB8900CB21FD /* Main.storyboard */,
+				BEE362B21B78EB8900CB21FD /* Info.plist */,
+				BEE362D71B78F55700CB21FD /* DiscoWindowController.h */,
+				BEE362D81B78F55700CB21FD /* DiscoWindowController.m */,
+				BEE362A71B78EB8900CB21FD /* Supporting Files */,
+			);
+			path = disco;
+			sourceTree = "<group>";
+		};
+		BEE362A71B78EB8900CB21FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE362A81B78EB8900CB21FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE362BA1B78EB8900CB21FD /* discoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE362BB1B78EB8900CB21FD /* discoTests.m */,
+				BEE362BD1B78EB8900CB21FD /* Info.plist */,
+			);
+			path = discoTests;
+			sourceTree = "<group>";
+		};
+		BEE362C51B78EB8900CB21FD /* discoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE362C61B78EB8900CB21FD /* discoUITests.m */,
+				BEE362C81B78EB8900CB21FD /* Info.plist */,
+			);
+			path = discoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE362A01B78EB8900CB21FD /* disco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE362CB1B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "disco" */;
+			buildPhases = (
+				BEE3629D1B78EB8900CB21FD /* Sources */,
+				BEE3629E1B78EB8900CB21FD /* Frameworks */,
+				BEE3629F1B78EB8900CB21FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = disco;
+			productName = disco;
+			productReference = BEE362A11B78EB8900CB21FD /* disco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE362B61B78EB8900CB21FD /* discoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE362CE1B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "discoTests" */;
+			buildPhases = (
+				BEE362B31B78EB8900CB21FD /* Sources */,
+				BEE362B41B78EB8900CB21FD /* Frameworks */,
+				BEE362B51B78EB8900CB21FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE362B91B78EB8900CB21FD /* PBXTargetDependency */,
+			);
+			name = discoTests;
+			productName = discoTests;
+			productReference = BEE362B71B78EB8900CB21FD /* discoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE362C11B78EB8900CB21FD /* discoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE362D11B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "discoUITests" */;
+			buildPhases = (
+				BEE362BE1B78EB8900CB21FD /* Sources */,
+				BEE362BF1B78EB8900CB21FD /* Frameworks */,
+				BEE362C01B78EB8900CB21FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE362C41B78EB8900CB21FD /* PBXTargetDependency */,
+			);
+			name = discoUITests;
+			productName = discoUITests;
+			productReference = BEE362C21B78EB8900CB21FD /* discoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE362991B78EB8900CB21FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = githubutilities;
+				TargetAttributes = {
+					BEE362A01B78EB8900CB21FD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BEE362B61B78EB8900CB21FD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BEE362A01B78EB8900CB21FD;
+					};
+					BEE362C11B78EB8900CB21FD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BEE362A01B78EB8900CB21FD;
+					};
+				};
+			};
+			buildConfigurationList = BEE3629C1B78EB8900CB21FD /* Build configuration list for PBXProject "disco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE362981B78EB8900CB21FD;
+			productRefGroup = BEE362A21B78EB8900CB21FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE362A01B78EB8900CB21FD /* disco */,
+				BEE362B61B78EB8900CB21FD /* discoTests */,
+				BEE362C11B78EB8900CB21FD /* discoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE3629F1B78EB8900CB21FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE362AE1B78EB8900CB21FD /* Assets.xcassets in Resources */,
+				BEE362B11B78EB8900CB21FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362B51B78EB8900CB21FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362C01B78EB8900CB21FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE3629D1B78EB8900CB21FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE362D91B78F55700CB21FD /* DiscoWindowController.m in Sources */,
+				BEE362AC1B78EB8900CB21FD /* ViewController.m in Sources */,
+				BEE362A91B78EB8900CB21FD /* main.m in Sources */,
+				BEE362A61B78EB8900CB21FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362B31B78EB8900CB21FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE362BC1B78EB8900CB21FD /* discoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE362BE1B78EB8900CB21FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE362C71B78EB8900CB21FD /* discoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE362B91B78EB8900CB21FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE362A01B78EB8900CB21FD /* disco */;
+			targetProxy = BEE362B81B78EB8900CB21FD /* PBXContainerItemProxy */;
+		};
+		BEE362C41B78EB8900CB21FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE362A01B78EB8900CB21FD /* disco */;
+			targetProxy = BEE362C31B78EB8900CB21FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE362AF1B78EB8900CB21FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE362B01B78EB8900CB21FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE362C91B78EB8900CB21FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEE362CA1B78EB8900CB21FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEE362CC1B78EB8900CB21FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = disco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.disco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEE362CD1B78EB8900CB21FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = disco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.disco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEE362CF1B78EB8900CB21FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = discoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.discoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/disco.app/Contents/MacOS/disco";
+			};
+			name = Debug;
+		};
+		BEE362D01B78EB8900CB21FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = discoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.discoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/disco.app/Contents/MacOS/disco";
+			};
+			name = Release;
+		};
+		BEE362D21B78EB8900CB21FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = discoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.discoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = disco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BEE362D31B78EB8900CB21FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = discoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.discoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = disco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE3629C1B78EB8900CB21FD /* Build configuration list for PBXProject "disco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE362C91B78EB8900CB21FD /* Debug */,
+				BEE362CA1B78EB8900CB21FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE362CB1B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "disco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE362CC1B78EB8900CB21FD /* Debug */,
+				BEE362CD1B78EB8900CB21FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE362CE1B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "discoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE362CF1B78EB8900CB21FD /* Debug */,
+				BEE362D01B78EB8900CB21FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE362D11B78EB8900CB21FD /* Build configuration list for PBXNativeTarget "discoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE362D21B78EB8900CB21FD /* Debug */,
+				BEE362D31B78EB8900CB21FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE362991B78EB8900CB21FD /* Project object */;
+}
